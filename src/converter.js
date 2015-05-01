@@ -76,11 +76,11 @@ var _longestKeyLength = function (obj) {
   return length;
 };
 
-var _min = function (a, b) { return a < b ? a : b; }
+var _min = function (a, b) { return a < b ? a : b; };
 
 Converter = {
     grToBt: grToBt,
     btToGr: btToGr
-}
+};
 
-}())
+}());

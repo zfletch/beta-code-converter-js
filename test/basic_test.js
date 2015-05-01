@@ -16,4 +16,4 @@ bt_form = 'kate/bhn xqe\\s ei)s *peiraia= meta\\ *glau/kwnos tou= *)ari/stwnos p
 Assert.equal(Converter.grToBt(gr_form), bt_form, " (long) gr -> bt");
 Assert.equal(Converter.btToGr(bt_form), gr_form, " (long) bt -> gr");
 
-}())
+}());
