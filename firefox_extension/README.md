@@ -1,6 +1,11 @@
 Beta Code Converter Firefox Add-On
 ==================================
 
+Download in Firefox
+-------------------
+
+See [https://addons.mozilla.org/en-US/firefox/addon/greek-beta-code-converter/](https://addons.mozilla.org/en-US/firefox/addon/greek-beta-code-converter/)
+
 How to Build Locally
 --------------------
 
