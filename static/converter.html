@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Greek Beta code converter</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 20px;
+      }
+
+      textarea {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 20px;
+      }
+
+      #containing-table {
+        padding-top: 15px;
+
+      }
+
+      td {
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+    </style>
+    <script src="../src/bt.js"></script>
+    <script src="../src/converter.js"></script>
+    <script src="./input.js"></script>
+  </head>
+  <body>
+    <center>
+      <h3>Greek Beta Code Converter</h3>
+      <table id="containing-table">
+        <tr>
+          <th>Greek</th>
+          <th>Beta Code</th>
+        </tr>
+        <tr>
+          <td>
+            <textarea id="gr-input" type="text" rows="15" cols="30"></textarea>
+          </td>
+          <td>
+            <textarea id="bt-input" type="text" rows="15" cols="30"></textarea>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
+
