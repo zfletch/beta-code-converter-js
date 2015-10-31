@@ -1,6 +1,14 @@
 Beta Code Converter
 ===================
 
+Try it Out
+----------
+
+[https://zfletch.github.io/beta-code-converter-js/](https://zfletch.github.io/beta-code-converter-js/)
+
+Overview
+--------
+
 Converts Greek beta code to Greek characters and vice versa.
 If you type in Greek characters, it displays the equivalent beta code characters.
 If you type in beta code, it displays the corresponding Greek characters.
@@ -12,11 +20,6 @@ For more information see:
 
 - [https://en.wikipedia.org/wiki/Beta\_Code](https://en.wikipedia.org/wiki/Beta_Code)
 - [http://www.tlg.uci.edu/encoding/](http://www.tlg.uci.edu/encoding/)
-
-Try it Out
-----------
-
-[https://zfletch.github.io/beta-code-converter-js/](https://zfletch.github.io/beta-code-converter-js/)
 
 Browser Extensions
 ------------------
