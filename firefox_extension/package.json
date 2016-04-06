@@ -1,9 +1,9 @@
 {
   "name": "greek-beta-code-converter",
   "title": "Greek Beta Code Converter",
-  "id": "jid1-OxjFLMsGAT8Wag",
+  "id": "jid1-OxjFLMsGAT8Wag@jetpack",
   "description": "Convert Greek beta code to Greek characters and vice versa.",
   "author": "",
   "license": "MPL 2.0",
-  "version": "0.1"
+  "version": "1.0.2"
 }

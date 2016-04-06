@@ -23,7 +23,3 @@ var button = buttons.ActionButton({
   },
   onClick: changeState
 });
-
-// converter.on('show', function () {
-//   converter.port.emit('show');
-// });

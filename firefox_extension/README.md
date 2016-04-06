@@ -9,10 +9,10 @@ See [https://addons.mozilla.org/en-US/firefox/addon/greek-beta-code-converter/](
 How to Build Locally
 --------------------
 
-- install the [Add-on SDK](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation): `brew install mozilla-addon-sdk` (or `apt-get`, `pacman`, etc.)
+- install the [Add-on SDK](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation): `npm install -g jpm`
 - run `./bin/firefox_build.sh`
 - `cd` into the `./firefox_extension` directory
-- run `cfx run`
+- run `jpm run`
 
 Source
 ------
