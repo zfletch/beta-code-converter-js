@@ -3,6 +3,8 @@
 
 var gr_form;
 var bt_form;
+var bt_form1;
+var bt_form2;
 
 gr_form = "μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος";
 bt_form = 'mh=nin a)/eide qea\\ *phlhi+a/dew *)axilh=os';
@@ -15,5 +17,13 @@ bt_form = 'kate/bhn xqe\\s ei)s *peiraia= meta\\ *glau/kwnos tou= *)ari/stwnos p
 
 Assert.equal(Converter.grToBt(gr_form), bt_form, " (long) gr -> bt");
 Assert.equal(Converter.btToGr(bt_form), gr_form, " (long) bt -> gr");
+
+gr_form = 'δδΔς'
+bt_form1 = 'dd*ds'
+bt_form2 = 'dD*Ds2'
+
+Assert.equal(Converter.grToBt(gr_form), bt_form1, " (weird letters) gr  -> bt");
+Assert.equal(Converter.btToGr(bt_form1), gr_form, " (weird letters) bt  -> gr");
+Assert.equal(Converter.btToGr(bt_form2), gr_form, " (weird letters) bt2 -> gr");
 
 }());
