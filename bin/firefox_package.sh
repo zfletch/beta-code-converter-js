@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-zip package firefox_extension/*
+cd firefox_extension
+zip package *
+mv package.zip ../
