@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-cat ./src/bt.js \
-  ./src/converter.js \
+cat ./beta-code-js/bundle/beta-code.js \
   > ./chrome_extension/compiled.js
 
 cp ./icons/*.png ./chrome_extension/

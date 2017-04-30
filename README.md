@@ -29,6 +29,12 @@ converter to your browser. (See the [chrome\_extension](https://github.com/zflet
 and [firefox\_extension](https://github.com/zfletch/beta-code-converter-js/tree/master/firefox_extension) directories
 for more information). There is also an HTML page in the [static](https://github.com/zfletch/beta-code-converter-js/tree/master/static) directory.
 
+Notes
+-----
+
+For the beta code conversion code, see [https://github.com/zfletch/beta-code-js](https://github.com/zfletch/beta-code-js).
+For the mappings between beta code and Unicode, see [https://github.com/zfletch/beta-code-json](https://github.com/zfletch/beta-code-json).
+
 Caveats
 -------
 
