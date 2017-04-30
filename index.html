@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Greek Beta code converter</title>
+
+    <link href="./static/third_party/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      @font-face {
+        font-family: 'New Athena Unicode';
+        src:  url("./static/third_party/naus_002woff/newathu5.woff") format("woff");
+      }
+      html, body {
+        height: 100%;
+      }
+      .max-height {
+        height: 100%;
+      }
+      .mostly-max-height {
+        height: 70% !important;
+      }
+      .input-gk {
+        font-family: "New Athena Unicode", sans-serif;
+        font-size: 22px;
+      }
+      .input-en {
+        font-family: "New Athena Unicode", sans-serif;
+        font-size: 22px;
+      }
+    </style>
+
+    <script src="./static/third_party/jquery-2.1.4.min.js"></script>
+    <script src="./static/third_party/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+    <script src="./node_modules/beta-code-js/bundle/beta-code.js"></script>
+    <script src="./static/input.js"></script>
+  </head>
+  <body>
+    <div class="container max-height">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h3>Greek Beta Code Converter</h3>
+        </div>
+      </div>
+
+      <div class="row max-height">
+
+        <div class="col-xs-6 max-height text-center">
+          <h4>Greek</h4>
+          <textarea id="gr-input" type="text" class="form-control input-lg mostly-max-height input-gk" placeholder="μῆνιν ἄειδε θεὰ ..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+        </div>
+
+        <div class="col-xs-6 max-height text-center">
+          <h4>Beta Code</h4>
+          <textarea id="bt-input" type="text" class="form-control input-lg mostly-max-height input-en" placeholder="mh=nin a)/eide qea\ ..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
