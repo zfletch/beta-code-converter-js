@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
-cat ./src/bt.js \
-  ./src/converter.js \
-  > ./firefox_extension/data/compiled.js
+cat ./beta-code-js/bundle/beta-code.js \
+  > ./firefox_extension/compiled.js
 
-cp ./icons/*.png ./firefox_extension/data/
+cp ./icons/*.png ./firefox_extension/
 
