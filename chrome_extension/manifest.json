@@ -4,7 +4,7 @@
   "name": "Greek Beta Code Converter",
   "short_name": "Greek Beta",
   "description": "Convert Greek beta code to Greek characters and vice versa.",
-  "version": "1.0.4",
+  "version": "1.0.5",
 
   "icons": {
     "16": "icon16.png",
