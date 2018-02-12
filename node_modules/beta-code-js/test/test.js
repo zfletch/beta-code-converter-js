@@ -32,6 +32,13 @@ describe('#greekToBetaCode', function() {
 
     expect(bc.greekToBetaCode(greek)).to.equal(beta_code);
   });
+
+  it('should normalize the Unicode', function () {
+    var greek = 'Πολλὴ μὲν ἐν βροτοῖσι κοὐκ ἀνώνυμος θεὰ κέκλημαι Κύπρις οὐρανοῦ τ᾿ ἔσω·';
+    var beta_code = '*pollh\\ me\\n e)n brotoi=si kou)k a)nw/numos qea\\ ke/klhmai *ku/pris ou)ranou= t᾿ e)/sw:';
+
+    expect(bc.greekToBetaCode(greek)).to.equal(beta_code);
+  });
 });
 
 describe('#betaCodeToGreek', function() {
