@@ -9,10 +9,12 @@ See [https://chrome.google.com/webstore/detail/greek-beta-code-converter/abelaep
 How to Build Locally
 --------------------
 
-- run `./bin/chrome_build.sh`
-- open Chrome and go to `chrome://extensions/`
-- enable `Developer mode` by clicking the checkbox in the top right corner of the page
-- click `Load unpacked extension` and select the folder `/your/path/to/beta-code-converter-js/chrome_extension`
+- Bump version in`chrome_extension/manifest.json` if necessary
+- Run `./bin/chrome_build.sh`
+- Open Chrome and go to `chrome://extensions/`
+- Enable `Developer mode` by clicking the checkbox in the top right corner of the page
+- Click `Load unpacked extension` and select the folder `/your/path/to/beta-code-converter-js/chrome_extension`
+- Run `./bin/chrome_package.sh` to generate `package.zip` and visit [the dashboard](https://chrome.google.com/webstore/developer/dashboard) if uploading to web store
 
 Source
 ------
