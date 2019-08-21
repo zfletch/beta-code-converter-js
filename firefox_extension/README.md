@@ -9,10 +9,12 @@ See [https://addons.mozilla.org/en-US/firefox/addon/greek-beta-code-converter/](
 How to Build Locally
 --------------------
 
-- run `./bin/firefox_build.sh`
-- open Firefox and go to `about:debugging`
-- check `Enable add-on debugging`
-- click `Load Temporary Add-on` and select the file `/your/path/to/beta-code-converter-js/firefox_extension/manifest.json`
+- Bump version in `firefox_extension/manifest.json` if necessary
+- Run `./bin/firefox_build.sh`
+- Open Firefox and go to `about:debugging`
+- Click 'This Firefox'
+- Click `Load Temporary Add-on` and select the file `/your/path/to/beta-code-converter-js/firefox_extension/manifest.json`
+- Run `./bin/chrome_package.sh` to generate `package.zip` and visit [the developer hub](https://addons.mozilla.org/en-US/developers/) if uploading to web store
 
 Source
 ------
