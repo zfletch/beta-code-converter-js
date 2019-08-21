@@ -1,0 +1,13 @@
+{
+  "name": "beta-code-converter-js",
+  "version": "1.0.5",
+  "description": "Greek beta code converter",
+  "main": "index.js",
+  "repository": "git@github.com:zfletch/beta-code-converter-js.git",
+  "author": "zfletch <zfletch2@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "beta-code-js": "^1.0.7"
+  }
+}
