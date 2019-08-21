@@ -4,7 +4,7 @@ Beta Code Converter
 Try it Out
 ----------
 
-[https://zfletch.github.io/beta-code-converter-js/](https://zfletch.github.io/beta-code-converter-js/)
+[https://apps.perseids.org/beta-code/](https://apps.perseids.org/beta-code/)
 
 Overview
 --------
