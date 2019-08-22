@@ -8,6 +8,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "beta-code-js": "^1.0.7"
+    "beta-code-js": "^1.0.8"
   }
 }
