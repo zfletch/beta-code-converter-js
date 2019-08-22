@@ -14,7 +14,7 @@ How to Build Locally
 - Open Firefox and go to `about:debugging`
 - Click 'This Firefox'
 - Click `Load Temporary Add-on` and select the file `/your/path/to/beta-code-converter-js/firefox_extension/manifest.json`
-- Run `./bin/chrome_package.sh` to generate `package.zip` and visit [the developer hub](https://addons.mozilla.org/en-US/developers/) if uploading to web store
+- Run `./bin/firefox_package.sh` to generate `package.zip` and visit [the developer hub](https://addons.mozilla.org/en-US/developers/) if uploading to web store
 
 Source
 ------
