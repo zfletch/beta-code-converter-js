@@ -1,10 +1,10 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "Greek Beta Code Converter",
   "short_name": "Greek Beta",
   "description": "Convert Greek beta code to Greek characters and vice versa.",
-  "version": "1.0.7",
+  "version": "1.0.8",
 
   "icons": {
     "16": "icon16.png",
@@ -13,7 +13,7 @@
     "128": "icon128.png"
   },
 
-  "browser_action": {
+  "action": {
     "default_popup": "popup.html"
   },
 
