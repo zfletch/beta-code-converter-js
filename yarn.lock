@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-beta-code-js@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/beta-code-js/-/beta-code-js-1.0.8.tgz#07fed9ef200ed9007e5521924d338130bb443f74"
-  integrity sha512-eSZ+8cW1Ah8jKJzN0PZw45Jtaj0C2oC9Ivt7GAfLMWFMN9VtLXYONENTz4mUQTvoQDSyclHh/0hj0JW7t2IIKQ==
+beta-code-js@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/beta-code-js/-/beta-code-js-3.0.0.tgz#391f9a74abfdb2e359da468ff49ea5213065c24f"
+  integrity sha512-dScdLgJf6VtOspPgcm+IgNCCvbvvuyBErMu6Crp5GCDUVXlfnkzyn70EtFOPFvIrGCcU4FJxDM33FhTbRNc2hw==

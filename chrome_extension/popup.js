@@ -7,14 +7,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   gr_input.addEventListener('input', function() {
     if (document.activeElement === gr_input) {
-      bt_input.value = greekToBetaCode(gr_input.value);
+      bt_input.value = BetaCode.greekToBetaCode(gr_input.value);
     } else {
       console.log("NOT ACTIVE");
     }
   }, true);
 
   bt_input.addEventListener('input', function() {
-    gr_input.value = betaCodeToGreek(bt_input.value);
+    gr_input.value = BetaCode.betaCodeToGreek(bt_input.value);
   }, true);
 });
 
